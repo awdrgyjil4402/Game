@@ -10,9 +10,6 @@ from guizero import App, Combo, Text, PushButton, info
 
 def lvui():
     def start():
-        info("Level", '''You have chosen %s ''' % (level_choice.value))
-        info("Level", "Play well!")
-        info('How to play', "tip: when done chosing level, close the UI")
         global inp
         inp = None
         if level_choice.value == 'level1':

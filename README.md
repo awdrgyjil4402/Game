@@ -9,6 +9,8 @@ has grown since. It mainly uses the Python and the Pygame library.
 
 The idea behind the simplistic gameplay was to defeat all the enemies every map.
 
+![image1](./png/1.png)
+
 ## Features
 
 ---
@@ -16,6 +18,8 @@ The idea behind the simplistic gameplay was to defeat all the enemies every map.
  - Simplistic yet open gameplay allowing many people to be able to pick it up
  - Multiple levels for a more diverse experience
  - An intuitive UI to select levels and difficulty
+
+![image2](./png/2.png)
 
 ## Requirements
 
@@ -28,5 +32,7 @@ In order to run the source code, the following python libraries are required:
  - Pytweening
  - Guizero
  - Pytmx
+
+![image3](./png/3.png)
 
  ---
