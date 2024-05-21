@@ -7,7 +7,7 @@ Penguins is a game made over a year during the toughest parts of the COVID-19 pa
 It was originally a project I had decided to create to entertain my family, but the game
 has grown since. It mainly uses the Python and the Pygame library.
 
-The goal was to defeat 
+The idea behind the simplistic gameplay was to defeat all the enemies every map.
 
 ## Features
 
