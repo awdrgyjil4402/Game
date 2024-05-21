@@ -9,7 +9,7 @@ has grown since. It mainly uses the Python and the Pygame library.
 
 The idea behind the simplistic gameplay was to defeat all the enemies every map.
 
-![image1](./png/1.png)
+![image1](https://drive.google.com/file/d/1laodA2tmxxALG49eXVUfN-W6k1MrP3v6/view?usp=drive_link)
 
 ## Features
 
