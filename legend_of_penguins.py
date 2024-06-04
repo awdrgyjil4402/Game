@@ -117,7 +117,7 @@ class Game:
         self.light_mask = pg.transform.scale(self.light_mask, LIGHT_RADIUS)
         self.light_rect = self.light_mask.get_rect()
         # Sound loading
-        pg.mixer.music.load(path.join(music_folder, BG_MUSIC))
+        # pg.mixer.music.load(path.join(music_folder, BG_MUSIC))
         self.effects_sounds = {}
         for type in EFFECTS_SOUNDS:
             self.effects_sounds[type] = pg.mixer.Sound(path.join(snd_folder, EFFECTS_SOUNDS[type]))
@@ -164,7 +164,7 @@ class Game:
     def run(self):
         # game loop - set self.playing = False to end the game
         self.playing = True
-        pg.mixer.music.play(loops=-1)
+        # pg.mixer.music.play(loops=-1)
         while self.playing:
             self.dt = self.clock.tick(FPS) / 1000.0  # fix for Python 2.x
             self.events()
